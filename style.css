@@ -23,11 +23,13 @@ body {
     width: 96px;
 }
 
+
 /* divivdeer */
 .burger2 {
     margin-left: 10px;
     margin-bottom: 15px;
 }
+
 
 /* gaika */
 .burger3 {
@@ -43,6 +45,77 @@ body {
     margin-bottom: 10px;
     width: 45px;
     height: 45px;
+}
+
+.burger5 {
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.burger6 {
+    display: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.burger7 {
+    display: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.burger8 {
+    display: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+@media (min-width: 768px) {
+    .burger1 {
+        position: absolute;
+        margin-left: 3%;
+    }
+    .burger3 {
+        margin-left: 75%;
+    }
+
+    .burger4 {
+        margin-left: 1%;
+    }
+    
+    .burger5 {
+        display: flex;
+        position: absolute;
+        margin-top: -6.5%;
+        margin-left: 82%;
+    }
+    .burger6 {
+        display: flex;
+        position: absolute;
+        margin-top: -7.5%;
+        margin-left: 75%;
+    }
+
+    .burger7 {
+        display: flex;
+        position: absolute;
+        margin-top: -7.5%;
+        margin-left: 68%;
+    }
+
+    .burger8 {
+        display: flex;
+        position: absolute;
+        margin-top: -7.5%;
+        margin-left: 60.9%;
+    }
 }
 
 .highlight {
