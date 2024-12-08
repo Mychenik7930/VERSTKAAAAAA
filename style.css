@@ -93,7 +93,7 @@ body {
     .burger5 {
         display: flex;
         position: absolute;
-        margin-top: -6.5%;
+        margin-top: -10px;
         margin-left: 82%;
     }
     .burger6 {
@@ -116,6 +116,7 @@ body {
         margin-top: -7.5%;
         margin-left: 60.9%;
     }
+
 }
 
 .highlight {
@@ -124,6 +125,12 @@ body {
 
 .USLUG {
     margin-left: 5%;
+}
+
+@media (min-width: 768px) { 
+    .USLUG {
+        margin-left: 2%;
+    }
 }
 
 .swiper {
@@ -140,6 +147,23 @@ body {
     margin-left: 5%;
     padding-left: 1%;
     border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .swiper {
+        padding: 1%;
+    }
+    .swiper-slide {
+        color: #7E7E82;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-left: 3%;
+    padding-left: 3%;
+    border-radius: 10px;
+    margin-right:-60%;
+    }
 }
 
 .text {
