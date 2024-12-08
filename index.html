@@ -26,14 +26,13 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide"><a href="google.com">Ремонтируемые устройства</a></div>
-    <div class="swiper-slide"><a href="">Дополнительные услуги</a></div>
-    <div class="swiper-slide"><a href="">Цены на услуги</a></div>
-    <div class="swiper-slide"><a href="">Адреса сервисных центров</a></div>
-    <div class="swiper-slide"><a href=""></a>Специальные цены</div>
+    <div class="swiper-slide" style="border: 2px solid #B8FFEC; background: #ffffff;"><a href="google.com" >Ремонтируемые устройства</a></div>
+    <div class="swiper-slide" style="border: 2px solid #B8FFEC; background: #ffffff;"><a href="">Дополнительные услуги</a></div>
+    <div class="swiper-slide" style="border: 2px solid #B8FFEC; background: #ffffff;"><a href="">Цены на услуги</a></div>
+    <div class="swiper-slide" style="border: 2px solid #B8FFEC; background: #ffffff;"><a href="">Адреса сервисных центров</a></div>
+    <div class="swiper-slide" style="border: 2px solid #B8FFEC; background: #ffffff;"><a href="">Специальные цены</a></div>
   </div>
   <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
 </div>
 
 
@@ -41,11 +40,8 @@
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
+  freeMode: true,
   loop: true,
-
-  // we dont need pagination eheheeehehe
-
-  // we dont need scroll bar
 });</script>
 
 <div>
@@ -62,6 +58,48 @@ const swiper = new Swiper('.swiper', {
   <p class="text2">Ремонт техники различных брендов</p>
 </div>
 
+
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"style="background-color: transparent;" style="border: none;"><img src="cat1.svg" alt=""></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"></div>
+    <div class="swiper-slide"><img src="cat1 copy.svg" alt=""></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"></div>
+    <div class="swiper-slide"><img src="cat1 copy 2.svg" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"><img src="cat1 copy 3.svg" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"><img src="cat1 copy 7.svg" alt=""></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"><img src="cat1 copy 8.svg" alt=""></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"><img src="cat1 copy 9.svg" alt=""></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"><img src="cat1 copy 10.svg" alt=""></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"><img src="cat1 copy 10.svg" alt=""></div>
+    <div class="swiper-slide" style="background-color: transparent;" style="border: none;"><img src="cat1 copy 10.svg" alt=""></div>
+  </div>
+  
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper1 = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
 
   </body>
 </html>

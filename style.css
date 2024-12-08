@@ -54,12 +54,10 @@ body {
 }
 
 .swiper {
-    width: 290px;
-    height: 40px;
-    background-color: #FFFFFF;
+    
     border-width: 900px;
     border-radius: 10px;
-    border: 2px solid #B8FFEC;
+    
     padding: 20px;
   }
 
@@ -68,6 +66,10 @@ body {
     font-size: 20px;
     text-align: center;
     padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+    padding-left: -10%;
+    border-radius: 10px;y
 }
 
 .text {
@@ -105,3 +107,15 @@ a {
     text-transform: uppercase;
     color: #7E7E82;
 }
+
+.swiper-slide img {
+    object-fit: cover;
+    padding-right: 100%;
+  }
+
+
+
+
+
+
+
