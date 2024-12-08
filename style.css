@@ -54,10 +54,7 @@ body {
 }
 
 .swiper {
-    
-    border-width: 900px;
     border-radius: 10px;
-    
     padding: 20px;
   }
 
@@ -68,8 +65,8 @@ body {
     padding-top: 3%;
     padding-bottom: 3%;
     margin-left: 5%;
-    padding-left: -10%;
-    border-radius: 10px;y
+    padding-left: 1%;
+    border-radius: 10px;
 }
 
 .text {
@@ -112,6 +109,13 @@ a {
     object-fit: cover;
     padding-right: 100%;
   }
+
+.text3 {
+    margin: 5%;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #7E7E82;
+}
 
 
 
